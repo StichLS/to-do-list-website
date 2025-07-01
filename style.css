@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inp {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+#noteInput {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 6px 10px;
+}
+
+#addBtn {
+  padding: 8px 15px;
+  background: #4db150;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.note button:last-child {
+  background: #dd2222;
+  color: white;
+}
+
+.note button:first-child {
+  background: orange;
+  color: white;
+}
+
